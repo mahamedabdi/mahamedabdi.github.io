@@ -1,0 +1,61 @@
+/* This was the font for my links in my HTML file */ 
+a {
+    color: #ff9900;
+}
+/*This code helped for the background of my whole website*/
+body {
+    background-color: #ffffcc;
+}
+/*The comment section in my Contact me tab I wanted to add white space to the field
+So this code helped me do that using the dimensions below */
+input[type=comment] {
+    width: 30%;
+    padding: 20px 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+/* Making the borders around all my headlines to make the website more visually appealing*/
+h1 {
+	color:white
+	text-decoration:none;
+    border: 3px solid orange;
+    font-family: gadugi; 
+    text-align:center;
+}
+/* Made a header for my name but wanted my name to stand out so since H3 is smaller then the rest i 
+had to edit it in the CSS folder and make it bigger then all the headers since its at the top*/
+h3 {
+font-size: 4.5em;
+text-align: center;
+font-style: italic;
+font-weight: 900
+
+}	
+	
+/* Code for my navgation I gave it the variable nav in my html folder so here I am styling it */
+ul#nav {
+  list-style:none;
+  margin:20px;
+  padding:0;
+  width:525px
+}
+
+ul#nav li {
+  display:inline
+}
+/* Properties for my navgation bar at the top for the color of the found the background color and the alignment*/
+ul#nav li a {
+  text-decoration:none;
+  padding:5px 0;
+  width:100px;
+  background:black;
+  color:#ff9900;
+  float:left;
+  text-align:center;
+  border-left:10px solid #000000;
+}
+/* when you hover over each entity theirs a background color for each value */
+ul#nav li a:hover {
+  background:#a2b3a1;
+  color:#000
+}

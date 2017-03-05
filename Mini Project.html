@@ -1,0 +1,91 @@
+<!-- Beggining of the HTML file -->
+<!doctype html>
+<html>
+
+<head>
+<!-- The header image for the website the image is sky i made the width and height those parameters to fill the whole top -->
+<center> <img src="images/sky.jpg" alt="header" style="width:1250px;height:128px;"></center>
+<!-- I had to make tags for each of my paragraphs. I made each paragrapgh a variable and refrenced it between my headers -->
+
+	<title>"Mahamed Abdi"</title>
+	<ul id="nav">
+	<li><a href= "#About"> About Me</a></li>
+	<li><a href="#Wn"> Coming Up?</a></li>
+	<li><a href="#me"> Contact Me</a></li>
+	<li><a href="https://www.linkedin.com/in/mahamed-abdi" target="_blank"/>My LinkedIn</a></li>
+	</ul>
+<!-- How I linked my HTML file to my CSS file -->
+	<link href="css/styles.css" type="text/css" rel="stylesheet">
+<br>	
+<h3> Mahamed Abdi </h3>	
+</head>
+<body>
+	<section>
+	<br>
+<!-- First header I made my ID about so I can reference it when I link it, also added my picture and used those parameters to fit 
+the picture in a way i thought looked good asthetically-->	
+	<h1 id="About"> About Me</h1>
+	<img src="images/MAbdi.jpg" alt="Mahamed" style="width:200px;height:200px;">
+	<p> I remember it like it was yesterday, at the age of 10 getting my first laptop for my birthday. 
+	Looking back at it now it was a brick and really slow but that’s when my love of all things technology related grew. 
+	Since I can remember I was always into the newest gadgets and innovations. They’ve always intrigued me, the making of them and how they have improved throughout the years.
+	Now being 24 years old to see how technology has evolved over the years is mind-blowing. 
+	To phones, computers and even internet being available daily it is truly remarkable. I’m currently in a Technology driven program that will give me the chance to further enhance my skills in the field and let me work in sector which I’ve always been passionate about. 
+<!--Made a subsection called hobbies so I could add more to the first header, added a
+bullleted list to make it look better-->	
+	<h2> Hobbies
+	<ul>
+	<li>Sports</li>
+	<li>TV Show Junkie</li>
+	<li>Working with youth</li>
+	<li>Travelling</li>
+	</ul>
+	</h2>
+<!--Used h2 again since I did another subsection so I could add more detail-->	
+	<h2> Fun fact about me:
+	</h2>
+	<p> Every Sunday morning for the month of April to September I coach a youth basketball league. 
+	I’ve been doing this for the past 5 years and it’s helped me in ways I couldn’t even imagine. 
+	It’s helped me first and foremost work on my patience with others, I learned that people pick things up at different speeds and not everyone is the same.
+	In addition to that I learned how to become a better communicator, some of the kids don’t speak English well as English isn’t their first language so I had to adapt and learn how to communicate them in an efficient and concise way so they do not feel left out.
+	Lastly I learned how to be a leader, me being the coach I was the one they looked up to.
+	If I wasn’t on time they wouldn’t be in time so I had to lead by example so I could show them the way to act on and off the court.
+	Coaching has honestly made me a better person and il continue to do it as long as I can.
+	</p>
+<!--H1 Id for what coming up. Didn't know how to link to javascript so I used
+Js elements to make an alert box, will be adding to this section when I have more concrete
+projects to show-->	
+	<h1 id= "Wn">Coming Up?</h1>
+	<p>
+	<img src="images/construction.jpg" alt="construction" style="width:200px;height:140px;">
+	<center><button onclick="myFunction()">Click to see what's coming up</button></center>
+<script>
+ function myFunction() {
+    alert("WEBSITE UNDER CONSTRUCTION");
+}
+</script>
+	</p>
+<!-- Add space to not make everything cluttered-->
+<br>
+<br>
+<!-- MY contact me code, this is where I made a form Input makes a variable for every box so only the comment box had 
+a different input because when i Linked it to the CSS file i wanted to make that Box have more padding then 
+the other fields -->
+	<h1 id="me"> Contact Me</h1>
+	<p> <form>
+  First name:<br>
+  <input type="text" name="firstname"><br>
+  Last name:<br>
+  <input type="text" name="lastname"><br>
+  E-Maill<br>
+  <input type="text" Name="Email"><br>
+  Comment:<br>
+  <input type="comment" name="Comment"><br>
+  <br><br>
+  <input type="submit" value="Submit">
+</form>          </p></center>
+<br>
+<!-- Bottom Banner for the website-->
+<center> <img src="images/banner.jpg" alt="banner" style="width:1250px;height:128px;"></center>
+<!-- End of the HTML -->
+</html>
